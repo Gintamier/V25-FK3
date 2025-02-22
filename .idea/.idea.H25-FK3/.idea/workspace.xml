@@ -11,16 +11,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a77667e-8e90-4c8c-9a6c-576ce0cb8d75" name="Changes" comment="c">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.H25-FK3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.H25-FK3/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.H25-FK3/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.H25-FK3/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.H25-FK3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/H25-FK3.sln" beforeDir="false" afterPath="$PROJECT_DIR$/V25-FK3.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verkefni1/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verkefni1/verkefni1.csproj" beforeDir="false" />
-    </list>
+    <list default="true" id="4a77667e-8e90-4c8c-9a6c-576ce0cb8d75" name="Changes" comment="z" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +144,7 @@
       <workItem from="1740233369024" duration="268000" />
       <workItem from="1740233646901" duration="586000" />
       <workItem from="1740234274848" duration="1887000" />
-      <workItem from="1740236181975" duration="1463000" />
+      <workItem from="1740236181975" duration="1864000" />
     </task>
     <task id="LOCAL-00001" summary="Idk what I am doing">
       <option name="closed" value="true" />
@@ -203,7 +194,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740236375559</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="..">
+      <option name="closed" value="true" />
+      <created>1740237871060</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740237871060</updated>
+    </task>
+    <task id="LOCAL-00008" summary="z">
+      <option name="closed" value="true" />
+      <created>1740237930829</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740237930829</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +225,9 @@
     <MESSAGE value="wqasssdadas" />
     <MESSAGE value="asd" />
     <MESSAGE value="c" />
-    <option name="LAST_COMMIT_MESSAGE" value="c" />
+    <MESSAGE value=".." />
+    <MESSAGE value="z" />
+    <option name="LAST_COMMIT_MESSAGE" value="z" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
