@@ -1,22 +1,5 @@
 ﻿using System;
 
-class Program
-{
-    static void Main()
-    {
-        // Create an instance of WeatherData
-        WeatherData weather = new WeatherData(25, 50, 'C');
-
-        // Print initial values
-        Console.WriteLine(weather);
-
-        // Convert and print updated values
-        weather.Convert();
-        Console.WriteLine("After conversion:");
-        Console.WriteLine(weather);
-    }
-}
-
 class WeatherData
 {
     private double temperature;
@@ -85,5 +68,32 @@ class WeatherData
     public override string ToString()
     {
         return $"Temperature: {temperature}{scale}, Humidity: {humidity}%";
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter temperature: ");
+        double temp = double.Parse(Console.ReadLine());
+        
+        Console.Write("Enter humidity (0-100%): ");
+        int hum = int.Parse(Console.ReadLine());
+        
+        Console.Write("Enter scale (C/F): ");
+        char scale = char.ToUpper(Console.ReadKey().KeyChar);
+        Console.WriteLine();
+        
+        WeatherData weather = new WeatherData(temp, hum, scale);
+        Console.WriteLine(weather);
+        
+        Console.Write("Convert temperature scale? (y/n): ");
+        if (Console.ReadKey().KeyChar == 'y')
+        {
+            Console.WriteLine();
+            weather.Convert();
+            Console.WriteLine(weather);
+        }
     }
 }
