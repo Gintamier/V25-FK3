@@ -2,7 +2,7 @@
 
 namespace SchoolDB_ERD;
 
-public class Teacher
+public class Teachers
 {
     [Key]
     public int TeacherId { get; set; }
@@ -13,5 +13,5 @@ public class Teacher
     [Required]
     public string LastName { get; set; }
     
-    public ICollection<SubjectTeacher> SubjectTeachers { get; set; }
+    public ICollection<SubjectTeachers> SubjectTeachers { get; set; }
 }

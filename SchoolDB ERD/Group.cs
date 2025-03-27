@@ -10,5 +10,5 @@ public class SchoolGroup
     [Required]
     public string Name { get; set; }
 
-    public ICollection<Student> Students { get; set; }
+    public ICollection<Students> Students { get; set; }
 }

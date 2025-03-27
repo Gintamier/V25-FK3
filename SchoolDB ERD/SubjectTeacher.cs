@@ -1,11 +1,11 @@
 ﻿namespace SchoolDB_ERD;
 
-public class SubjectTeacher
+public class SubjectTeachers
 {
     public int SubjectId { get; set; }
-    public Subject Subject { get; set; }
+    public Subjects Subject { get; set; }
 
     public int TeacherId { get; set; }
-    public Teacher Teacher { get; set; }
+    public Teachers Teacher { get; set; }
 }
 

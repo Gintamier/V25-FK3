@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-public class Student
+public class Students
 {
     [Key]
     public int StudentId { get; set; }
@@ -17,5 +17,5 @@ public class Student
     public int GroupId { get; set; }
     public SchoolGroup Group { get; set; }
 
-    public ICollection<Mark> Marks { get; set; }
+    public ICollection<Marks> Marks { get; set; }
 }

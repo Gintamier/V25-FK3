@@ -2,7 +2,7 @@
 
 namespace SchoolDB_ERD;
 
-public class Subject
+public class Subjects
 {
     [Key]
     public int SubjectId { get; set; }
@@ -10,6 +10,6 @@ public class Subject
     [Required]
     public string Title { get; set; }
 
-    public ICollection<SubjectTeacher> SubjectTeachers { get; set; }
-    public ICollection<Mark> Marks { get; set; }
+    public ICollection<SubjectTeachers> SubjectTeachers { get; set; }
+    public ICollection<Marks> Marks { get; set; }
 }
