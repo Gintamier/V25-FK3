@@ -1,11 +1,11 @@
 ﻿namespace SchoolDB_API.Models;
 
-public class SubjectTeachers
+public class SubjectTeacher
 {
     public int SubjectId { get; set; }
-    public Subjects Subject { get; set; }
+    public Subject Subject { get; set; }
 
     public int TeacherId { get; set; }
-    public Teachers Teacher { get; set; }
+    public Teacher Teacher { get; set; }
 }
 

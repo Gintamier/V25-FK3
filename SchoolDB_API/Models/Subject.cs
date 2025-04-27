@@ -2,7 +2,7 @@
 
 namespace SchoolDB_API.Models;
 
-public class Subjects
+public class Subject
 {
     [Key]
     public int SubjectId { get; set; }
@@ -10,6 +10,6 @@ public class Subjects
     [Required]
     public string Title { get; set; }
 
-    public ICollection<SubjectTeachers> SubjectTeachers { get; set; }
+    public ICollection<SubjectTeacher> SubjectTeachers { get; set; }
     public ICollection<Mark> Marks { get; set; }
 }

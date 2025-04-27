@@ -2,7 +2,7 @@
 
 namespace SchoolDB_API.Models;
 
-public class Teachers
+public class Teacher
 {
     [Key]
     public int TeacherId { get; set; }
@@ -13,5 +13,5 @@ public class Teachers
     [Required]
     public string LastName { get; set; }
     
-    public ICollection<SubjectTeachers> SubjectTeachers { get; set; }
+    public ICollection<SubjectTeacher> SubjectTeachers { get; set; }
 }

@@ -9,10 +9,10 @@ public class Mark
     public int MarkId { get; set; }
 
     public int StudentId { get; set; }
-    public Student Students { get; set; }
+    public Student Student { get; set; }
 
     public int SubjectId { get; set; }
-    public Subjects Subject { get; set; }
+    public Subject Subject { get; set; }
 
     public DateTime Date { get; set; }
 

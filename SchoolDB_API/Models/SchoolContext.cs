@@ -13,22 +13,22 @@ public class SchoolContext : DbContext
 
     public DbSet<Student> Students { get; set; }
     public DbSet<SchoolGroup> Groups { get; set; }
-    public DbSet<Teachers> Teachers { get; set; }
-    public DbSet<Subjects> Subjects { get; set; }
-    public DbSet<SubjectTeachers> SubjectTeachers { get; set; }
+    public DbSet<Teacher> Teachers { get; set; }
+    public DbSet<Subject> Subjects { get; set; }
+    public DbSet<SubjectTeacher> SubjectTeachers { get; set; }
     public DbSet<Mark> Marks { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<SubjectTeachers>()
+        modelBuilder.Entity<SubjectTeacher>()
             .HasKey(st => new { st.SubjectId, st.TeacherId });
 
-        modelBuilder.Entity<SubjectTeachers>()
+        modelBuilder.Entity<SubjectTeacher>()
             .HasOne(st => st.Subject)
             .WithMany(s => s.SubjectTeachers)
             .HasForeignKey(st => st.SubjectId);
 
-        modelBuilder.Entity<SubjectTeachers>()
+        modelBuilder.Entity<SubjectTeacher>()
             .HasOne(st => st.Teacher)
             .WithMany(t => t.SubjectTeachers)
             .HasForeignKey(st => st.TeacherId);
